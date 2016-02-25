@@ -8,7 +8,7 @@ function farea(){
 	var a = Number(a);
 		
 	if(b <= 0 || a<=0){
-		window.alert("NÃO EXISTE TRIÂNGULO COM BASE OU ALTURA MENOR OU IGUAL A ZERO. DIGITE UM VALOR VÁLIDO!");	
+		window.alert("NAO EXISTE TRIANGULO COM BASE OU ALTURA MENOR OU IGUAL A ZERO. DIGITE UM VALOR VALIDO!");	
 	}
 	else{	
 	var area = (b*a)/2;
