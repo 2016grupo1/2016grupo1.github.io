@@ -50,7 +50,7 @@ function calcular(){
 	//imprimir os resultados xi
 	res='';
    	for (i=1;i<=n;i++){
-		res=res+'\r\nx'+i+'\r\n='+x[i]+'<br>'
+		res=res+'X'+i+':<input type="text" value="'+x[i]+'"disabled>'+'<br><br>'
 	}
 	document.getElementById('resultado').innerHTML = res;
 	

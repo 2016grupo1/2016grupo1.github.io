@@ -49,7 +49,7 @@ function calcular(){
 	//imprimir os resultados xi
 	res='';
    	for (i=1;i<=n;i++){
-		res=res+'\r\nx'+i+'\r\n='+x[i]+'<br>'
+		res=res+'X'+i+':<input type="text" value="'+x[i]+'"disabled>'+'<br><br>'
 	}
 	document.getElementById('resultado').innerHTML = res;
 	
@@ -57,7 +57,6 @@ function calcular(){
 	
 function sistemainferior(n,b,a){ 	//AQUI ENTRA O ALGORITMO DOS ALUNOS
 x=[];
-
 for(i=1;i<=n;i++){
 soma=0;
 	for(j=i-1;j>=1;j--){
